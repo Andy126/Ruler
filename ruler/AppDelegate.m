@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ScaleHelper.h"
+#import "PatientWeightVC.h"
+#import "PatientHeightVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    PatientHeightVC *vc = [[PatientHeightVC alloc]init];
+    self.window.rootViewController=vc;
+
+    [ScaleHelper initScale];
+
     return YES;
 }
 

@@ -15,6 +15,16 @@
 		A176FCB4207DF3C500EB75B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FCB3207DF3C500EB75B2 /* main.m */; };
 		A176FCBE207DF3C500EB75B2 /* rulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FCBD207DF3C500EB75B2 /* rulerTests.m */; };
 		A176FCC9207DF3C500EB75B2 /* rulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FCC8207DF3C500EB75B2 /* rulerUITests.m */; };
+		A176FD37207DF49E00EB75B2 /* RulerVerticalScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD34207DF49D00EB75B2 /* RulerVerticalScaleView.m */; };
+		A176FD38207DF49E00EB75B2 /* RulerTransverseScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD36207DF49E00EB75B2 /* RulerTransverseScaleView.m */; };
+		A176FD3E207DF65800EB75B2 /* ScaleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD3C207DF65800EB75B2 /* ScaleHelper.m */; };
+		A176FD41207DF71D00EB75B2 /* PatientWeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD3F207DF71D00EB75B2 /* PatientWeightVC.m */; };
+		A176FD43207DF83D00EB75B2 /* patientheightView@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD42207DF83D00EB75B2 /* patientheightView@3x.png */; };
+		A176FD45207DF85600EB75B2 /* man@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD44207DF85600EB75B2 /* man@3x.png */; };
+		A176FD47207DF86700EB75B2 /* colorimage2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD46207DF86700EB75B2 /* colorimage2@3x.png */; };
+		A176FD49207DF87100EB75B2 /* scaleImage2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD48207DF87100EB75B2 /* scaleImage2@3x.png */; };
+		A176FD4C207DFA5C00EB75B2 /* PatientHeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD4A207DFA5B00EB75B2 /* PatientHeightVC.m */; };
+		A176FD51207DFDF000EB75B2 /* colorView1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD50207DFDF000EB75B2 /* colorView1@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,21 @@
 		A176FCC4207DF3C500EB75B2 /* rulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A176FCC8207DF3C500EB75B2 /* rulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rulerUITests.m; sourceTree = "<group>"; };
 		A176FCCA207DF3C500EB75B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A176FD33207DF49D00EB75B2 /* RulerTransverseScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerTransverseScaleView.h; sourceTree = "<group>"; };
+		A176FD34207DF49D00EB75B2 /* RulerVerticalScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerVerticalScaleView.m; sourceTree = "<group>"; };
+		A176FD35207DF49E00EB75B2 /* RulerVerticalScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulerVerticalScaleView.h; sourceTree = "<group>"; };
+		A176FD36207DF49E00EB75B2 /* RulerTransverseScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulerTransverseScaleView.m; sourceTree = "<group>"; };
+		A176FD3C207DF65800EB75B2 /* ScaleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleHelper.m; sourceTree = "<group>"; };
+		A176FD3D207DF65800EB75B2 /* ScaleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleHelper.h; sourceTree = "<group>"; };
+		A176FD3F207DF71D00EB75B2 /* PatientWeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientWeightVC.m; sourceTree = "<group>"; };
+		A176FD40207DF71D00EB75B2 /* PatientWeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientWeightVC.h; sourceTree = "<group>"; };
+		A176FD42207DF83D00EB75B2 /* patientheightView@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patientheightView@3x.png"; sourceTree = "<group>"; };
+		A176FD44207DF85600EB75B2 /* man@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man@3x.png"; sourceTree = "<group>"; };
+		A176FD46207DF86700EB75B2 /* colorimage2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorimage2@3x.png"; sourceTree = "<group>"; };
+		A176FD48207DF87100EB75B2 /* scaleImage2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scaleImage2@3x.png"; sourceTree = "<group>"; };
+		A176FD4A207DFA5B00EB75B2 /* PatientHeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientHeightVC.m; sourceTree = "<group>"; };
+		A176FD4B207DFA5C00EB75B2 /* PatientHeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientHeightVC.h; sourceTree = "<group>"; };
+		A176FD50207DFDF000EB75B2 /* colorView1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorView1@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +126,11 @@
 		A176FCA3207DF3C200EB75B2 /* ruler */ = {
 			isa = PBXGroup;
 			children = (
+				A176FD4F207DFB7400EB75B2 /* viewController */,
+				A176FD4E207DFB5A00EB75B2 /* rulerView */,
+				A176FD4D207DFB4A00EB75B2 /* image */,
+				A176FD3D207DF65800EB75B2 /* ScaleHelper.h */,
+				A176FD3C207DF65800EB75B2 /* ScaleHelper.m */,
 				A176FCA4207DF3C200EB75B2 /* AppDelegate.h */,
 				A176FCA5207DF3C200EB75B2 /* AppDelegate.m */,
 				A176FCA7207DF3C200EB75B2 /* ViewController.h */,
@@ -130,6 +160,40 @@
 				A176FCCA207DF3C500EB75B2 /* Info.plist */,
 			);
 			path = rulerUITests;
+			sourceTree = "<group>";
+		};
+		A176FD4D207DFB4A00EB75B2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A176FD50207DFDF000EB75B2 /* colorView1@3x.png */,
+				A176FD42207DF83D00EB75B2 /* patientheightView@3x.png */,
+				A176FD44207DF85600EB75B2 /* man@3x.png */,
+				A176FD48207DF87100EB75B2 /* scaleImage2@3x.png */,
+				A176FD46207DF86700EB75B2 /* colorimage2@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		A176FD4E207DFB5A00EB75B2 /* rulerView */ = {
+			isa = PBXGroup;
+			children = (
+				A176FD33207DF49D00EB75B2 /* RulerTransverseScaleView.h */,
+				A176FD36207DF49E00EB75B2 /* RulerTransverseScaleView.m */,
+				A176FD35207DF49E00EB75B2 /* RulerVerticalScaleView.h */,
+				A176FD34207DF49D00EB75B2 /* RulerVerticalScaleView.m */,
+			);
+			path = rulerView;
+			sourceTree = "<group>";
+		};
+		A176FD4F207DFB7400EB75B2 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				A176FD40207DF71D00EB75B2 /* PatientWeightVC.h */,
+				A176FD3F207DF71D00EB75B2 /* PatientWeightVC.m */,
+				A176FD4B207DFA5C00EB75B2 /* PatientHeightVC.h */,
+				A176FD4A207DFA5B00EB75B2 /* PatientHeightVC.m */,
+			);
+			path = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +299,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A176FD47207DF86700EB75B2 /* colorimage2@3x.png in Resources */,
 				A176FCB1207DF3C500EB75B2 /* LaunchScreen.storyboard in Resources */,
+				A176FD51207DFDF000EB75B2 /* colorView1@3x.png in Resources */,
+				A176FD49207DF87100EB75B2 /* scaleImage2@3x.png in Resources */,
+				A176FD45207DF85600EB75B2 /* man@3x.png in Resources */,
 				A176FCAE207DF3C500EB75B2 /* Assets.xcassets in Resources */,
 				A176FCAC207DF3C200EB75B2 /* Main.storyboard in Resources */,
+				A176FD43207DF83D00EB75B2 /* patientheightView@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +333,11 @@
 			files = (
 				A176FCA9207DF3C200EB75B2 /* ViewController.m in Sources */,
 				A176FCB4207DF3C500EB75B2 /* main.m in Sources */,
+				A176FD3E207DF65800EB75B2 /* ScaleHelper.m in Sources */,
+				A176FD4C207DFA5C00EB75B2 /* PatientHeightVC.m in Sources */,
+				A176FD38207DF49E00EB75B2 /* RulerTransverseScaleView.m in Sources */,
+				A176FD37207DF49E00EB75B2 /* RulerVerticalScaleView.m in Sources */,
+				A176FD41207DF71D00EB75B2 /* PatientWeightVC.m in Sources */,
 				A176FCA6207DF3C200EB75B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
