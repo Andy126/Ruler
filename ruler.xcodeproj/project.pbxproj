@@ -25,6 +25,8 @@
 		A176FD49207DF87100EB75B2 /* scaleImage2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD48207DF87100EB75B2 /* scaleImage2@3x.png */; };
 		A176FD4C207DFA5C00EB75B2 /* PatientHeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A176FD4A207DFA5B00EB75B2 /* PatientHeightVC.m */; };
 		A176FD51207DFDF000EB75B2 /* colorView1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD50207DFDF000EB75B2 /* colorView1@3x.png */; };
+		A176FD53207F040300EB75B2 /* scaleImage1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A176FD52207F040300EB75B2 /* scaleImage1@3x.png */; };
+		A176FD57207F099200EB75B2 /* show.gif in Resources */ = {isa = PBXBuildFile; fileRef = A176FD56207F099200EB75B2 /* show.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		A176FD4A207DFA5B00EB75B2 /* PatientHeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientHeightVC.m; sourceTree = "<group>"; };
 		A176FD4B207DFA5C00EB75B2 /* PatientHeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientHeightVC.h; sourceTree = "<group>"; };
 		A176FD50207DFDF000EB75B2 /* colorView1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorView1@3x.png"; sourceTree = "<group>"; };
+		A176FD52207F040300EB75B2 /* scaleImage1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scaleImage1@3x.png"; sourceTree = "<group>"; };
+		A176FD56207F099200EB75B2 /* show.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = show.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,8 @@
 		A176FD4D207DFB4A00EB75B2 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				A176FD56207F099200EB75B2 /* show.gif */,
+				A176FD52207F040300EB75B2 /* scaleImage1@3x.png */,
 				A176FD50207DFDF000EB75B2 /* colorView1@3x.png */,
 				A176FD42207DF83D00EB75B2 /* patientheightView@3x.png */,
 				A176FD44207DF85600EB75B2 /* man@3x.png */,
@@ -304,7 +310,9 @@
 				A176FD51207DFDF000EB75B2 /* colorView1@3x.png in Resources */,
 				A176FD49207DF87100EB75B2 /* scaleImage2@3x.png in Resources */,
 				A176FD45207DF85600EB75B2 /* man@3x.png in Resources */,
+				A176FD53207F040300EB75B2 /* scaleImage1@3x.png in Resources */,
 				A176FCAE207DF3C500EB75B2 /* Assets.xcassets in Resources */,
+				A176FD57207F099200EB75B2 /* show.gif in Resources */,
 				A176FCAC207DF3C200EB75B2 /* Main.storyboard in Resources */,
 				A176FD43207DF83D00EB75B2 /* patientheightView@3x.png in Resources */,
 			);
