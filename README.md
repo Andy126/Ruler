@@ -7,5 +7,6 @@ ruler
 
 * 用CGContext写了一个可滑动的直尺，有横竖两种形式，可以用作用户选择身高体重，使app更加具有趣味性。
 
+![](https://github.com/Andy126/ruler/raw/master/ruler/ruler/image/show.gif)  
 
 
